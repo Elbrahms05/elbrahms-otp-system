@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\OtpSystem\Providers;
+namespace elbrahms\OtpSystem\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
