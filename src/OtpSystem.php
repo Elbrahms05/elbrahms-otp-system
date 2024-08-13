@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\OtpSystem;
+namespace elbrahms\OtpSystem;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
