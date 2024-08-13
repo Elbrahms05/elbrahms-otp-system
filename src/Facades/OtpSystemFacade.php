@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\OtpSystem\Facades;
+namespace elbrahms\OtpSystem\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

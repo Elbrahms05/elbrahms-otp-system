@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\OtpSystem\Providers;
+namespace elbrahms\OtpSystem\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -27,7 +27,7 @@ class OtpSystemServiceProvider extends ServiceProvider
 
         // Register the main class to use with the facade
         $this->app->singleton('otpsystem', function () {
-            return new \vendor\OtpSystem\OtpSystem;
+            return new \elbrahms\OtpSystem\OtpSystem;
         });
     }
 }
