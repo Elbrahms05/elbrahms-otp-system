@@ -1,0 +1,30 @@
+{
+    "name": "elbrahms/otp-system",
+    "description": "A simple OTP System with LAM",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "vendor\\OtpSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ABDOU KARIMOU  Ibrahim",
+            "email": "ibrahimabdoulkarim@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "vendor\\OtpSystem\\Providers\\OtpSystemServiceProvider"
+            ],
+            "aliases": {
+                "OtpSystem": "vendor\\OtpSystem\\Facades\\OtpSystemFacade"
+            }
+        }
+    },
+    "require": {
+        "php": "^8.0",
+         "illuminate/support": "^8.0|^9.0|^10.0"
+    }
+}
